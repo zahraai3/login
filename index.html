@@ -4,10 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitZone</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="img/gymlogo.png">
+    <link rel="icon" type="/image/png" sizes="16x16" href="img/gymlogo.png">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    
+    <div class="sidebar">
+        <h1>FitZone</h1>
+        <img src="/img/gymboy.jpg" rel="a guy using some weight to train">
+         <h2>Your journey to the perfect, healthy body and a clear mind start here..join us now!</h2>
+    </div>
+
+    <div class="Signup-container">
+        <form action="#" method="post">
+            <p id="Title">Sign Up</p>
+            <div class="info">
+            <label for="name">Name:
+                <input id="name" type="text" name="name" placeholder="Enter your name" required >
+            </label>
+           
+            <label for="username">UserName:
+                <input id="username" type="text" name="username" placeholder="Enter your Username" required >
+            </label>
+
+             <label for="e-mail">E-Mail:
+                <input id="e-mail" type="email" name="email" placeholder="you@example.com" required >
+            </label>
+
+             <label for="phone">Phone Number:
+                <input id="phone" type="number" name="phone-number" placeholder="Exp:077123456789" minlength="10" maxlength="11" pattern="[0-9]{10,11}" required >
+            </label>
+
+             <label for="password">Password:
+                <input id="password" type="number" name="password" placeholder="Password" minlength="8" maxlength="11" required >
+            </label>
+
+             <label for="password2">Confirm Password:
+                <input id="password2" type="number" name="confirm-password" placeholder="Confirm-Password" minlength="8" maxlength="11" required >
+            </label>
+             
+             <label for="send">
+                <button id="send" type="button" >Sign Up</button>
+                <p id="Log-In">Already have an account?<a href="#">Log-In!</a></p>
+
+             </label>
+           </div>
+        </form>
+    </div>
+      
+
+    <script src="script.js"></script>
 </body>
 </html>
